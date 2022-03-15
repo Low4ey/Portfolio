@@ -1,0 +1,15 @@
+.web{
+    position: relative;
+    top: 5em;
+    left: 10em;
+    overflow-y: hidden;
+    height: 1000px;
+    width: 800px;
+}
+.web p{
+    color: white;
+    width: 650px;
+    margin-top: 3%;
+    margin-left: 2%;
+    font-size: 20px;
+}

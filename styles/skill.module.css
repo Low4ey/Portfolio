@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+
+.main{
+position: absolute;
+top: 2em;
+left: 11em;
+font-family: 'Press Start 2P', cursive;
+
+}
+.ruler{
+    display: flex;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-right: 1%;
+    color: white;
+    list-style: none;
+}
+.skilla{
+    height: 8vh;
+    width: 18vw;
+    padding: auto;
+    cursor: pointer;
+}
