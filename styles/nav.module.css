@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 .nav{
-  width: 250px;
-    display: flex;
+  width: 12%;
+    /* display: flex; */
     flex-direction: column;
     position: absolute;
     bottom: 0px;
@@ -17,15 +17,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
-    color: #da691e;
-    font-size: 36px;
-    font-family: 'Fredoka One', cursive;
     list-style: none;
 
 }
 .item{
-  font-size: 24px;
   color: white;
 }
 .mainnav{
@@ -45,4 +40,20 @@
 .png:hover{
   -webkit-filter: drop-shadow(5px 5px 5px #da691e);
   filter: drop-shadow(5px 5px 5px #da691e);
+}
+@media only screen and (min-width:1200px) and (max-width:2000px) {
+  .nav{
+    left: 106em;
+  }
+  .logo{
+    left:55em;
+  }
+}
+@media only screen and (min-width:768px) and (max-width:1200px) {
+
+.nav{
+  left: 62em;
+  width: 13em;
+}
+
 }

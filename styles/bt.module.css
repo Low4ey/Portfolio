@@ -1,10 +1,10 @@
-/* From cssbuttons.io */
+
 .btn button {
     padding: 1.3em 3em;
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 2.5px;
-    font-weight: 500;
+    font-weight: bold;
     color: #000;
     background-color: #fff;
     border: none;

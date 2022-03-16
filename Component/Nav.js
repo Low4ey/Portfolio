@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "../styles/nav.module.css"
 import Link from "next/link"
-import Image from "next/image";
 import Button from "./Button";
 import Head from "next/head";
 

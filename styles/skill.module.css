@@ -23,3 +23,8 @@ font-family: 'Press Start 2P', cursive;
     padding: auto;
     cursor: pointer;
 }
+@media only screen and (min-width:1200px) and (max-width:2000px) {
+    .main{
+        left:20em;
+    }
+}

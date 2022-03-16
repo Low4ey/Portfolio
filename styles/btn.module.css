@@ -9,11 +9,10 @@
     text-transform: uppercase;
     letter-spacing: 4px;
     text-decoration: none;
-    font-size: 24px;
     overflow: hidden;
     transition: 0.2s;
     text-decoration: none;
-    width: 190px;
+    width: 150px;
     text-align: center;
     cursor: pointer;
 }
