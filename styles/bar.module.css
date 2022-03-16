@@ -6,7 +6,7 @@
     overflow-y: hidden;
   }
   .skillame{
-    font-size: 18px;
+    font-size: 1em;
     font-weight: 700;
     color: #f1f1f1;
     text-transform: uppercase;
@@ -65,5 +65,24 @@
     }
     to{
       width: 100%;
+    }
+  }
+  @media only screen and (max-width:1300px) {
+    .skills{
+      height: 6em;;
+      width: 30em;
+      margin-left: 10em;
+    }
+    .skillame{
+      font-size: 1em;
+    }
+  }
+  @media only screen and (max-width:1200px) {
+    .skills{
+      height: 6em;;
+      width: 30em;
+    }
+    .skillame{
+      font-size: 1em;
     }
   }
