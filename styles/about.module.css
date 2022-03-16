@@ -103,7 +103,7 @@
 .blr {
   height: 100vh;
 }
-@media only screen and (min-width: 768px) and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
   .heading {
     font-size: 0.9em;
     left: 20em;
@@ -115,7 +115,6 @@
   .para {
     left: 3em;
     width: 25em;
-
   }
   .logo{
     top: 15em;
@@ -124,3 +123,25 @@
     width: 20em;
   }
 }
+@media only screen and (max-width: 1100px) {
+  .heading {
+    font-size: 0.7em;
+    left: 20em;
+  }
+  .info {
+    top: 6em;
+    left:1.7em;
+  }
+  .para {
+    left: 3em;
+    width: 25em;
+    font-size: 1.1em;
+  }
+  .logo{
+    top: 15em;
+    right:16em;
+    height: 16em;
+    width: 16em;
+  }
+}
+
