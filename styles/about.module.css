@@ -102,3 +102,21 @@
 .blr{
   height: 100vh;
 }
+
+@media screen and (max-width:450px){
+   .heading{
+     font-size: 7px;
+   }
+   .info{
+     font-size: 5px;
+   }
+   .logo{
+     left: 10%;
+     top: 40%;
+   }
+   .para{
+     position: absolute;
+     top: 100%;
+     padding: 20px;
+   }
+}

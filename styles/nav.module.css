@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 .nav{
-  width: 250px;
+    width: 250px;
     display: flex;
     flex-direction: column;
     position: absolute;
     bottom: 0px;
-    left: 75em;
+    right: 0%;
     overflow: hidden;
     background: rgb(245,255,0);
     background: linear-gradient(0deg, rgba(245,255,0,1) 0%, rgba(0,0,0,1) 0%, rgba(218,105,30,1) 100%);
@@ -45,4 +45,13 @@
 .png:hover{
   -webkit-filter: drop-shadow(5px 5px 5px #da691e);
   filter: drop-shadow(5px 5px 5px #da691e);
+}
+
+@media screen and (max-width: 450px){
+    .mainnav{
+      display: none;
+    }
+    .logo{
+      align-items: center;
+    }
 }
