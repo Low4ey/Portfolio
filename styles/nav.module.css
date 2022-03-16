@@ -49,6 +49,15 @@
     left:55em;
   }
 }
+@media only screen and (max-width: 1300px) {
+  .nav{
+    left:69em;
+    width:14em
+  }
+  .logo{
+    left:30em;
+  }
+}
 @media only screen and (max-width:1200px) {
 .nav{
   left: 62em;
