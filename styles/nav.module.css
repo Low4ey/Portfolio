@@ -41,12 +41,42 @@
   -webkit-filter: drop-shadow(5px 5px 5px #da691e);
   filter: drop-shadow(5px 5px 5px #da691e);
 }
-@media only screen and (min-width:1200px) and (max-width:2000px) {
+
+
+@media only screen and (max-width: 1700px) {
   .nav{
-    left: 106em;
+    left:90em;
+    width:14em
   }
   .logo{
-    left:55em;
+    left:30em;
+  }
+}
+@media only screen and (max-width: 1600px) {
+  .nav{
+    left:82em;
+    width:14em
+  }
+  .logo{
+    left:30em;
+  }
+}
+@media only screen and (max-width: 1500px) {
+  .nav{
+    left:80em;
+    width:14em
+  }
+  .logo{
+    left:30em;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .nav{
+    left:74em;
+    width:14em
+  }
+  .logo{
+    left:30em;
   }
 }
 @media only screen and (max-width: 1300px) {
