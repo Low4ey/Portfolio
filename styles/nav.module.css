@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 .nav{
   width: 12%;
-    /* display: flex; */
     flex-direction: column;
     position: absolute;
     bottom: 0px;
-    left: 75em;
+    right: 0.1em;
     overflow: hidden;
     background: rgb(245,255,0);
     background: linear-gradient(0deg, rgba(245,255,0,1) 0%, rgba(0,0,0,1) 0%, rgba(218,105,30,1) 100%);
@@ -31,7 +30,7 @@
   position: absolute;
   bottom: 1em;
   display: flex;
-  left: 32em;
+  left: 50em;
 }
 .png{
   padding-right: 2em;

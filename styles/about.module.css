@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap");
 .heading {
   position: relative;
-  left: 21em;
+  left: 25em;
   top: 10em;
   font-family: "Raleway", sans-serif;
 }
 .heading h1 {
   position: absolute;
-  font-size: 6em;
+  font-size: 8em;
   transform: translate(-50%, -50%);
 }
 .heading h1:nth-child(1) {
@@ -71,17 +71,17 @@
 .para {
   position: absolute;
   width: 30em;
-  left: 4%;
-  top: 20em;
-  font-size: 1.2rem;
+  left: 3%;
+  top: 15em;
+  font-size: 1.8rem;
   color: white;
 }
 .info {
   position: relative;
   top: 8.6em;
-  left: 3em;
+  left: 2em;
   width: 50vw;
-  font-size: 1.8em;
+  font-size: 2em;
   color: white;
 }
 .info hr {
@@ -97,7 +97,7 @@
 .logo {
   position: absolute;
   list-style: none;
-  right: 20em;
+  right: 25em;
   top: 10em;
 }
 .blr {
