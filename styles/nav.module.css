@@ -60,10 +60,16 @@
   left: 56em;
   width: 13em;
 }
+.logo{
+  left:20em;
+}
 }
 @media only screen and (max-width:1000px) {
 .nav{
   left: 50em;
   width: 13em;
+}
+.logo{
+  left: 20em;
 }
 }
