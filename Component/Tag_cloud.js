@@ -10,16 +10,16 @@ const data = [
   { value: 'Express.js', count: 25 },
   { value: 'HTML5', count: 33 },
   { value: 'CSS3', count: 20 },
-  { value: 'Webpack', count: 22 },
-  { value: 'Babel.js', count: 7 },
-  { value: 'ECMAScript', count: 25 },
+  { value: 'NextJS', count: 22 },
+  { value: 'Photoshop', count: 7 },
+  { value: 'Python', count: 25 },
   { value: 'Jest', count: 15 },
-  { value: 'Mocha', count: 17 },
+  { value: 'MySQL', count: 17 },
   { value: 'React Native', count: 27 },
   { value: 'Angular.js', count: 30 },
   { value: 'TypeScript', count: 15 },
-  { value: 'Flow', count: 30 },
-  { value: 'NPM', count: 11 },
+  { value: 'JAVA', count: 30 },
+  { value: 'Kotlin', count: 11 },
 ]
 
 /* CSS:
@@ -36,10 +36,10 @@ const customRenderer = (tag, size, color) => (
     style={{
       animation: 'blinker 3s linear infinite',
       animationDelay: `${Math.random() * 2}s`,
-      fontSize: `${size / 2}em`,
+      fontSize: `${size}em`,
       border: `2px solid ${color}`,
-      margin: '3px',
-      padding: '3px',
+      margin: '0.1em',
+      padding: '0.1em',
       display: 'inline-block',
       color: 'white',
     }}
@@ -49,5 +49,5 @@ const customRenderer = (tag, size, color) => (
 )
 
 export default () => (
-  <TagCloud tags={data} minSize={1} maxSize={5} renderer={customRenderer} />
+  <TagCloud tags={data} minSize={1} maxSize={4} renderer={customRenderer} />
 )

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); */
 
 
 
@@ -22,6 +22,15 @@ font-family: 'Press Start 2P', cursive;
     width: 18vw;
     padding: auto;
     cursor: pointer;
+}
+.cld{
+    font-weight: bold;
+    height: 80em;
+    width: 40em;
+    position: absolute;
+    left: 45em;
+    top: 10em;
+    
 }
 @media only screen and (min-width:1200px) and (max-width:2000px) {
     .main{
