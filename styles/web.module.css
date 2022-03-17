@@ -1,7 +1,7 @@
 .web{
     position: relative;
     top: 5em;
-    left: 10em;
+    left: 20em;
     overflow-y: hidden;
     height: 80em;
     width: 90em;
@@ -23,10 +23,9 @@
     }
 }
 @media only screen and (max-width:1200px) {
-    .web{
-        width:43vw
-    }
+    
+    
     .web p{
-        font-size: 1.2em;
+        font-size: 1.4em;
     }
 }
