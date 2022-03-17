@@ -2,23 +2,23 @@ import React from 'react'
 import { TagCloud } from 'react-tagcloud'
 
 const data = [
-  { value: 'jQuery', count: 25 },
-  { value: 'MongoDB', count: 18 },
-  { value: 'JavaScript', count: 38 },
-  { value: 'React', count: 30 },
-  { value: 'Nodejs', count: 28 },
-  { value: 'Express.js', count: 25 },
-  { value: 'HTML5', count: 33 },
-  { value: 'CSS3', count: 20 },
-  { value: 'NextJS', count: 22 },
+  { value: 'jQuery', count: 20 },
+  { value: 'MongoDB', count: 13 },
+  { value: 'JavaScript', count: 33 },
+  { value: 'React', count: 25 },
+  { value: 'Nodejs', count: 23 },
+  { value: 'Express.js', count: 20 },
+  { value: 'HTML5', count: 25 },
+  { value: 'CSS3', count: 17 },
+  { value: 'NextJS', count: 20 },
   { value: 'Photoshop', count: 7 },
   { value: 'Python', count: 25 },
   { value: 'Jest', count: 15 },
   { value: 'MySQL', count: 17 },
   { value: 'React Native', count: 27 },
-  { value: 'Angular.js', count: 30 },
+  { value: 'C++', count: 30 },
   { value: 'TypeScript', count: 15 },
-  { value: 'JAVA', count: 30 },
+  { value: 'JAVA', count: 22 },
   { value: 'Kotlin', count: 11 },
 ]
 
@@ -42,6 +42,7 @@ const customRenderer = (tag, size, color) => (
       padding: '0.1em',
       display: 'inline-block',
       color: 'white',
+      borderRadius:"6px"
     }}
   >
     {tag.value}

@@ -5,8 +5,14 @@ import Editing from "../Component/Editing";
 import styles from "../styles/skill.module.css"
 import Btn from "../Component/btn";
 import Tag_cloud from "../Component/Tag_cloud";
+import Text_cloud from "../Component/text_cloud";
+import dynamic from 'next/dynamic';
 
 function Skill() {
+    const DynamicComponentWithNoSSR = dynamic(
+        () => import('../Component/text_cloud'),
+        { ssr: false }
+      )
     const [skill, setskill] = useState("Web")
     return (<>
         <div className={styles.main}>
@@ -15,8 +21,11 @@ function Skill() {
                 <a onClick={() => setskill("Programming")} className={styles.skilla}><Btn name="Programming" /></a>
                 <a onClick={() => setskill("Editing")} className={styles.skilla}><Btn name="Editing" /></a>
             </ul>
+            <Text_cloud />
             <div className={styles.cld}>
+                {/* <DynamicComponentWithNoSSR /> */}
             <Tag_cloud />
+
             </div>
         </div>
         {skill === "Web" && <Web />}
