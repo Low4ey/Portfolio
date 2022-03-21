@@ -32,9 +32,12 @@ font-family: 'Press Start 2P', cursive;
     top: 10em;
     
 }
-@media only screen and (min-width:1200px) and (max-width:2000px) {
-    .main{
-        left:20em;
-        justify-content: space-between;
-    }
+@media only screen and (min-width:1400px) {
+   .cld{
+       left:35em;
+       height: 30em;
+       width: 30em;
+       top: 5em;
+   }
+
 }
