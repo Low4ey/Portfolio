@@ -6,6 +6,7 @@ import styles from "../styles/skill.module.css"
 import Btn from "../Component/btn";
 import Tag_cloud from "../Component/Tag_cloud";
 import dynamic from 'next/dynamic';
+import Text_cloud from "../Component/text_cloud";
 
 function Skill() {
     const DynamicComponentWithNoSSR = dynamic(
@@ -22,7 +23,10 @@ function Skill() {
             </ul>
 
             <div className={styles.cld}>
-                <Tag_cloud />
+                <span className="tagcloud">
+                    <Text_cloud />
+                </span>
+
             </div>
         </div>
         {skill === "Web" && <Web />}
